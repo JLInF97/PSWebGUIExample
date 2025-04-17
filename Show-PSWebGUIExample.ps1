@@ -1,4 +1,49 @@
-﻿$routes=@{
+
+<#PSScriptInfo
+
+.VERSION 1.0.0
+
+.GUID f41eadbf-9c2d-4efb-a252-24a7f41cc7bf
+
+.AUTHOR JLInF97
+
+.COMPANYNAME 
+
+.COPYRIGHT 
+
+.TAGS PSWebGUI
+
+.LICENSEURI 
+
+.PROJECTURI https://github.com/JLInF97/PSWebGUIExample
+
+.ICONURI https://github.com/JLInF97/PSWebGUIExample/blob/main/LICENSE
+
+.EXTERNALMODULEDEPENDENCIES 
+
+.REQUIREDSCRIPTS 
+
+.EXTERNALSCRIPTDEPENDENCIES 
+
+.RELEASENOTES
+
+
+#> 
+
+#Requires -RunAsAdministrator
+#Requires -Module PSWebGUI
+
+<# 
+
+.DESCRIPTION 
+ Sample script demonstrating the use of the PSWebGUI module 
+
+#> 
+
+Param()
+
+
+$routes=@{
 
     "/showProcesses" = {
         Set-Title -Title "Processes"
