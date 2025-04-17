@@ -57,4 +57,4 @@
 }
 
 
-Show-PSWebGUI -InputObject $routes -Icon "/panel.png" -Root "$PSScriptRoot\Assets"
+Show-PSWebGUI -InputObject $routes -Icon "/panel.png" -Root "$PSScriptRoot\public"
